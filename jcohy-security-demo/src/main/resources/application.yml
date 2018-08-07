@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: jcoh1203
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/springsecurity?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+  session:
+    store-type: none
+
+
+
+server:
+  session:
+#  设置session超时时间(最小是1分钟 )
+    timeout: 600
+  port: 8080
+security:
+  basic:
+    enabled: false
+
+
+
+
+
+
+
+
